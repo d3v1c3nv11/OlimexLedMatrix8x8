@@ -4,10 +4,8 @@
 
 #define NUMBER_OF_DEVICES 1
 #define CS_PIN 5
-#define DATA_PIN 13
-#define CLOCK_PIN 14
 
-LedMatrix ledMatrix = LedMatrix(NUMBER_OF_DEVICES, DATA_PIN, CLOCK_PIN, CS_PIN);
+LedMatrix ledMatrix = LedMatrix(NUMBER_OF_DEVICES, CS_PIN);
 
 void setup() {
   ledMatrix.init();
