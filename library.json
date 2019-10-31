@@ -1,0 +1,13 @@
+{
+  "name": "OlimexLedMatrix8x8",
+  "version": "1.0.0",
+  "keywords": "matrix,led,spi,display",
+  "description": "This library displays text and sets specific pixels on one or multiple 8x8 led matrices Olimex MOD-Led8x8 controlled through the SPI interface.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/d3v1c3nv11/OlimexLedMatrix8x8.git"
+  },
+  "frameworks": "arduino",
+  "platforms": "espressif8266"
+}
